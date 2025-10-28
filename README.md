@@ -5,7 +5,7 @@ ref:https://draeger-it.blog/en/micropython-with-esp32-introduction-to-the-esp32-
 
 
 ### schematic and wiring diagram
-ref:
+ref:  
 https://protosupplies.com/product/funduino-joystick-shield-v1-a/  
 https://cb-electronics.com/products/ky-023-shield/  
 ![Funduino-Joystick-Shield-Connections.jpg](Funduino-Joystick-Shield-Connections.jpg)  
