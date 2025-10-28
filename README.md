@@ -1,5 +1,16 @@
 # Arduino_UNO_joystick_shield_testing
-Joysitck shield or clone, schematic, collection
+
+### known issue ESP32  
+![ESP32_known_issue.JPG](ESP32_known_issue.JPG)
+
+ESP32_D1_R32 has LED connected to IO-2 (see https://github.com/xiaolaba/ESP32_WeMos_D1_R32_IO2_Blink), and/or internal pull-down   
+X-axis of joystick shiled is connected to IO-2, the variable resitor is paralleled, thus ADC read out is not full-scale to be 3.3v or 4096 steps.
+Y-axis is is connected to IO-4, no such issue.  
+
+UNO (AVR), X / Y read out more straightforward, no such issue.   
+   
+
+### Joysitck shield or clone, schematic, collection
 ![D1_R32_Joystick_shield_pin_mapping.JPG](D1_R32_Joystick_shield_pin_mapping.JPG)  
 ref:https://draeger-it.blog/en/micropython-with-esp32-introduction-to-the-esp32-d1-r32/
 
